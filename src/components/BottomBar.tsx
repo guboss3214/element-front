@@ -120,7 +120,7 @@ const BottomBar: FC<BottomBarProps> = ({
           onChange={handleFileChange}
           accept="image/*"
         />
-        <CiCirclePlus size={24} sm:size={28} className="text-white" />
+        <CiCirclePlus size={24} className="text-white" />
       </div>
 
       <div
@@ -146,7 +146,7 @@ const BottomBar: FC<BottomBarProps> = ({
               onClick={removeImage}
               className="text-gray-400 hover:text-white pr-0.5"
             >
-              <IoClose size={16} sm:size={18} />
+              <IoClose size={16} />
             </button>
           </div>
         )}
