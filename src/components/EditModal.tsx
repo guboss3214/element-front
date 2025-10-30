@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react' // Додаємо useState та useEffect
+import { useState, useEffect } from 'react'
 import type { CircuitComponent } from '../App'
 
 interface EditModalProps {
